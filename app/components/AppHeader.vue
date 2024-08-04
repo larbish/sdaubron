@@ -4,22 +4,19 @@ import type { NavItem } from '@nuxt/content'
 const navigation = inject<Ref<NavItem[]>>('navigation', ref([]))
 
 const links = [{
-  label: 'Docs',
-  to: '/docs'
+  label: 'Prestations',
+  to: '/prestations'
 }, {
-  label: 'Pricing',
-  to: '/pricing'
-}, {
-  label: 'Blog',
-  to: '/blog'
+  label: 'Contact',
+  to: '/contact'
 }]
 </script>
 
 <template>
   <UHeader :links="links">
     <template #logo>
-      Nuxt UI Pro <UBadge
-        label="SaaS"
+      Sandrine Daubron <UBadge
+        label="Pédicure Podologue"
         variant="subtle"
         class="mb-0.5"
       />
@@ -27,16 +24,12 @@ const links = [{
 
     <template #right>
       <UButton
-        label="Sign in"
-        color="gray"
-        to="/login"
-      />
-      <UButton
-        label="Sign up"
+        label="Prendre rendez-vous"
         icon="i-heroicons-arrow-right-20-solid"
         trailing
         color="black"
-        to="/signup"
+        to="https://www.doctolib.fr/pedicure-podologue/orsay/sandrine-daubron"
+        target="_blank"
         class="hidden lg:flex"
       />
     </template>

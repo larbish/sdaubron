@@ -1,0 +1,12 @@
+title: Pédicure Podologue Orsay - Sandrine Daubron
+description: Le cabinet de Sandrine Daubron, pédicure podologue à Orsay en Essonne (91400) vous reçoit pour podologie du sport, semelle orthopédique, soins, pied du diabétique, orthoplastie, domicile.
+navigation: false
+hero:
+  title: Sandrine Daubron
+  description: Je vous accueille dans mon cabinet au 1 rue des Mésanges à Orsay. N'hésitez pas à me contacter pour une urgence directement par téléphone au 01 69 28 07 65. Je me déplace à domicile le jeudi sur les communes d'Orsay, Bures et Villebon.
+  links:
+    - label: Prendre rendez-vous
+      to: 'https://www.doctolib.fr/pedicure-podologue/orsay/sandrine-daubron'
+      size: xl
+      color: black
+      target: _blank

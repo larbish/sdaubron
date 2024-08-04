@@ -53,18 +53,13 @@ useSeoMeta({
     </ULandingHero>
 
     <ULandingSection class="!pt-0">
-      <ImagePlaceholder />
-    </ULandingSection>
-
-    <ULandingSection
-      v-for="(section, index) in page.sections"
-      :key="index"
-      :title="section.title"
-      :description="section.description"
-      :align="section.align"
-      :features="section.features"
-    >
-      <ImagePlaceholder />
+      <NuxtImg
+        src="baby_feet.webp"
+        width="1200"
+        height="600"
+        class="bg-gray-100 dark:bg-gray-800 ring-1 ring-inset ring-gray-900/10 dark:ring-white/10 rounded-lg p-4"
+      />
+      <!-- <ImagePlaceholder /> -->
     </ULandingSection>
 
     <ULandingSection
@@ -78,32 +73,6 @@ useSeoMeta({
           v-bind="item"
         />
       </UPageGrid>
-    </ULandingSection>
-
-    <ULandingSection
-      :headline="page.testimonials.headline"
-      :title="page.testimonials.title"
-      :description="page.testimonials.description"
-    >
-      <UPageColumns class="xl:columns-4">
-        <div
-          v-for="(testimonial, index) in page.testimonials.items"
-          :key="index"
-          class="break-inside-avoid"
-        >
-          <ULandingTestimonial
-            v-bind="testimonial"
-            class="bg-gray-100/50 dark:bg-gray-800/50"
-          />
-        </div>
-      </UPageColumns>
-    </ULandingSection>
-
-    <ULandingSection>
-      <ULandingCTA
-        v-bind="page.cta"
-        class="bg-gray-100/50 dark:bg-gray-800/50"
-      />
     </ULandingSection>
   </div>
 </template>
