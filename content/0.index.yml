@@ -19,10 +19,10 @@ features:
   items:
     - title: Pédicurie
       description: La pédicurie permet de traiter les affections épidermiques du pied et les affections unguéales (de l’ongle).
-      to: /prestations/pedicurie
+      to: /prestations/soin-pedicurie
     - title: Pied du diabétique
       description: 30 % des personnes qui ont du diabète sont susceptibles d’avoir des problèmes neuropathiques ou artériopathiques au niveau des membres inférieurs.
-      to: /prestations/diabetique
+      to: /prestations/pied-du-diabetique
     - title: Podologie du sport
       description: La podologie du sport est une spécialité car il faut connaitre le sport pour savoir quelles sont les contraintes que va rencontrer le sportif et apporter les meilleurs conseils aux sportifs.
       to: /prestations/podologie-du-sport
@@ -31,7 +31,7 @@ features:
       to: /prestations/posturologie
     - title: Podopédiatrie
       description: Une visite vers l’âge de 5 ans est préconisée pour faire un bilan podologique et s’assurer que tout va bien.
-      to: /prestations/reflexologie
+      to: /prestations/podopediatrie
     - title: Réfléxologie
       description: La réfléxologie plantaire est une méthode qui utilise le processus d’auto- guérison naturel du corps.
       to: /prestations/reflexologie
