@@ -120,7 +120,7 @@
         />
 
         <p class="text-sm text-gray-400 mt-3">
-          Ces honoraires vous sont communiqués à titre indicatif par le praticien. Ils peuvent varier selon le type de soins finalement réalisés en cabinet, le nombre de consultations et les actes additionnels nécessaires
+          Ces honoraires vous sont communiqués à titre indicatif par le praticien. Ils peuvent varier selon le type de soins finalement réalisés en cabinet, le nombre de consultations et les actes additionnels nécessaires.
         </p>
       </UPageCard>
     </UPage>
@@ -179,18 +179,24 @@ const studies = [{
 
 const prices = [{
   name: 'Soins de pédicure',
-  price: '33€'
+  price: '37€'
 }, {
   name: 'Semelles orthopédiques',
-  price: '95€ à 110€'
+  price: '80€ à 100€'
 }, {
   name: 'Bilan podologique/posturologique',
-  price: '30€ '
+  price: '55€ '
 }, {
   name: 'Orthoplastie',
   price: '20€ à 60€'
 }, {
   name: 'Réfléxologie',
   price: '55€'
+}, {
+  name: 'Orthonyxie',
+  price: '20€'
+}, {
+  name: 'Soins à domicile',
+  price: 'de 45€ à 50€'
 }]
 </script>
