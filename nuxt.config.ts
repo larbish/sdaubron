@@ -34,12 +34,6 @@ export default defineNuxtConfig({
     disableTransition: true
   },
 
-  nitro: {
-    prerender: {
-      failOnError: false
-    }
-  },
-
   routeRules: {
     // Temporary workaround for prerender regression. see https://github.com/nuxt/nuxt/issues/27490
     '/': { prerender: true },

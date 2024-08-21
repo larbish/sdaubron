@@ -35,10 +35,10 @@ const links = [{
     </template>
 
     <template #panel>
-      <UNavigationTree
+      <!-- <UNavigationTree
         :links="mapContentNavigation(navigation)"
         default-open
-      />
+      /> -->
     </template>
   </UHeader>
 </template>
