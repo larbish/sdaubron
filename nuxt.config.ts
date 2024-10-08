@@ -23,7 +23,10 @@ export default defineNuxtConfig({
   },
 
   site: {
-    url: 'https://podologue-orsay.com'
+    url: 'https://podologue-orsay.com',
+    name: 'Pédicure Podologue Orsay - Sandrine Daubron',
+    description: 'Le cabinet de Sandrine Daubron, pédicure podologue à Orsay en Essonne (91400) vous reçoit pour podologie du sport, semelle orthopédique, soins, pied du diabétique, orthoplastie, domicile',
+    defaultLocale: 'fr'
   },
 
   ui: {

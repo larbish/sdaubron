@@ -55,6 +55,7 @@ useSeoMeta({
     <ULandingSection class="!pt-0">
       <NuxtImg
         src="baby_feet.webp"
+        alt="Des pieds de bébés tout doux"
         width="1200"
         height="600"
         class="bg-gray-100 dark:bg-gray-800 ring-1 ring-inset ring-gray-900/10 dark:ring-white/10 rounded-lg p-4"
