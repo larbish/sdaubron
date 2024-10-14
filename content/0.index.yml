@@ -6,6 +6,7 @@ hero:
   description: Je vous accueille dans mon cabinet au 1 rue des Mésanges à Orsay. N'hésitez pas à me contacter pour une urgence directement par téléphone au 01 69 28 07 65. Je me déplace à domicile le jeudi sur les communes d'Orsay, Bures et Villebon.
   headline:
     label: Sandrine Daubron
+    to: 'https://www.doctolib.fr/pedicure-podologue/orsay/sandrine-daubron'
   links:
     - label: Prendre rendez-vous
       to: 'https://www.doctolib.fr/pedicure-podologue/orsay/sandrine-daubron'
