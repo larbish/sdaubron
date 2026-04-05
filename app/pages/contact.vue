@@ -179,7 +179,7 @@ const studies = [{
 
 const prices = [{
   name: 'Soins de pédicure',
-  price: '37€'
+  price: '38€'
 }, {
   name: 'Semelles orthopédiques',
   price: '80€ à 100€'
@@ -193,10 +193,7 @@ const prices = [{
   name: 'Réfléxologie',
   price: '55€'
 }, {
-  name: 'Orthonyxie',
-  price: '20€'
-}, {
   name: 'Soins à domicile',
-  price: 'de 45€ à 50€'
+  price: '46€'
 }]
 </script>
